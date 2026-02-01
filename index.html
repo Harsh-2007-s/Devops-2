@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DevOps Collaboration</title>
+    <meta charset="UTF-8">
+    <title>Student ID Card</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+
+            /* Plain background (removed gradient) */
+            background: #ffffff;
+        }
+
+        .card {
+            width: 480px;              /* MORE BIGGER */
+            padding: 50px;
+            background: white;
+
+            /* Border added */
+            border: 4px solid #333;
+
+            border-radius: 18px;
+            text-align: center;
+        }
+
+        .header {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+        }
+
+        .profile {
+            width: 200px;              /* Bigger photo */
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #333;
+            margin-bottom: 25px;
+        }
+
+        .name {
+            font-size: 30px;           /* Bigger text */
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .info {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>Welcome to DevOps Collaboration Practical</h1>
-  <p>This is a sample HTML file for Git collaboration.</p>
+
+    <div class="card">
+
+        <div class="header">STUDENT ID CARD</div>
+
+        <img src="img.avif" alt="Profile Photo" class="profile">
+
+        <div class="name">Harsh Negi</div>
+
+        <div class="info"><span class="label">Roll No:</span> 5023135</div>
+        <div class="info"><span class="label">Branch:</span> IT</div>
+
+    </div>
+
 </body>
 </html>
